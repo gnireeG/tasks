@@ -14,6 +14,9 @@
         @routes
         @vite(['resources/js/app.js', "resources/js/Pages/{$page['component']}.vue"])
         @inertiaHead
+
+        <script src="https://accounts.google.com/gsi/client" async defer></script>
+
     </head>
     <body class="font-sans antialiased">
         @inertia
